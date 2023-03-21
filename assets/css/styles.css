@@ -14,13 +14,13 @@ img{
   }
   
   .grid-container > div {
-    background-color: white;
     text-align: center;
     padding: 0;
     font-size: 30px;
   }
   
   .item1 {
+    background-color: white;
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
@@ -34,6 +34,7 @@ img{
 }
 
 .nav{
+    padding: 10px;
     display: flex;
     flex-direction: row;
 }
@@ -51,6 +52,7 @@ img{
     grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 2;
+    background-color:blanchedalmond;
   }
 
   .item3 p{
@@ -58,7 +60,7 @@ img{
   }
 
   .item4 {
-    /* background-color:burlywood; */
+    background-color:blanchedalmond;
     text-align: center;
     grid-row-start: 2;
     grid-row-end: 6;
@@ -71,6 +73,7 @@ img{
   }
   
   .item5 {
+    background-color:black;
     grid-row-start: 4;
     grid-row-end: 9;
     grid-column-start: 1;
@@ -82,22 +85,41 @@ img{
   grid-row-end: 9;
   grid-column-start: 3;
   grid-column-end: 4;
+  background-color:blanchedalmond;
+}
+
+.item6 p{
+  font-size: 20px;
 }
 
 .item7 {
+    background-color:blanchedalmond;
     grid-row-start: 6;
     grid-row-end: 8;
     grid-column-start: 4;
     grid-column-end: 10;
   }
   
+.item7 p{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
   .item8 {
+    background-color: black;
     grid-row-start: 8;
-    grid-row-end: 9;
+    grid-row-end: 10;
     grid-column-start: 4;
     grid-column-end: 7;
   }
+
+  .item8 img{
+    /* width: 150px; */
+    height:fit-content;
+  }
+
   .item9 {
+    background-color:blanchedalmond;
     grid-row-start: 8;
     grid-row-end: 9;
     grid-column-start: 7;
@@ -105,6 +127,7 @@ img{
   }
 
   .item10{
+    background-color:blanchedalmond;
     grid-row-start: 9;
     grid-row-end: 10;
     grid-column-start: 1;
@@ -112,6 +135,7 @@ img{
   }
 
   .item11{
+    background-color:blanchedalmond;
     grid-row-start: 9;
     grid-row-end: 10;
     grid-column-start: 3;
